@@ -1,0 +1,87 @@
+/*---------------------------------------CABECALHO---------------------------------------*/
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    min-width: 1134; 
+}
+p{
+    margin-bottom: 0 !important;
+}
+/*---------------------------------------CORPO---------------------------------------*/
+.gradiente{
+    margin-top: 4%;
+}
+.div1{
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items: center ;
+}
+.imgs2{
+    display: flex;
+    justify-content: left;
+    align-items: center ;
+    margin-top: 10px;
+}
+.logo{
+    width: 35px;
+    margin-right: 10px;
+}
+.android{
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items: center ;
+    border: 1px solid lightslategray;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 35%;
+}
+.android:hover{
+    background-color: #2f3d60;
+    color: white;
+    transition: 0.3s;
+}
+.ios{
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items: center ;
+    border: 1px solid lightslategray;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #2f3d60;
+    color: white;
+    width: 35%;
+
+}
+.logoIos{
+    width: 70px;
+    margin-right: 10px;
+}
+.ios:hover{
+    color: black;
+    background: white;
+    transition: 0.3s;
+
+}
+.cor{
+    background-color: #2f3d60;
+}
+.aMenu{
+    color: white;
+}
+.aMenu:hover{
+    color: white;
+
+}
+.informacoes{
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
