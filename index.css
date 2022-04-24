@@ -39,7 +39,7 @@ p{
     width: 35%;
 }
 .android:hover{
-    background-color: #2f3d60;
+    background-color: gray;
     color: white;
     transition: 0.3s;
 }
@@ -60,8 +60,8 @@ p{
     margin-right: 10px;
 }
 .ios:hover{
-    color: black;
-    background: white;
+    color: white;
+    background: gray;
     transition: 0.3s;
 
 }
@@ -84,4 +84,46 @@ p{
     width: 50%;
     margin-left: 25%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 950px) {
+    .imgs1 {
+        display: none !important;
+    }
+    .div1{
+        margin-top: 25%;
+    }
+    .informacoes{
+        width: 98%;
+        margin-left: 1% !important;
+        font-size: 15px !important;
+    }
+    .imgs2{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ios{
+        margin-top: 5px !important;
+        width: 70%;
+    }
+    .android{
+        width: 70%;
+        margin-right: 0 !important;
+    }
+    .menu{
+        display: none;
+    }
+    .pos-f-t{
+        display: block !important;
+    }
+}
+.pos-f-t{
+    display: none;
+}
+.navbar-toggler{
+    padding: 0% !important;
+}
+.navbar {
+    padding: 0.3rem 0.8rem !important;
 }
